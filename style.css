@@ -1,22 +1,92 @@
-ul {
+div#header ul {
 	list-style-type: none;
 	margin: 14px 15px 0 0;
 	padding: 0;
 	float: right;
 }
 
-ul li {
+div#header ul li {
 	display: inline;
 	margin-right: 10px;
 	font-family: sans-serif;
 	font-size: 0.8em;
 }
 
-ul li img {
+div#header ul li img {
 	height: 30px;
 	width: 30px;
 }
 
-.icon {
+div#search {
+	position: relative;
 	clear: both;
+	height: 565px;
+	width: 100%;
+	background-color: #99ff99;
+}
+
+div.icon {
+	height: 92px;
+	width: 272px;
+	text-align: center; margin: 1em 0;
+}
+div.icon img {
+	vertical-align: middle;
+	max-height: 92px;
+	max-width: 272px;
+	border: solid; border-color: #000;
+}
+
+div#search input {
+	position: absolute;
+	margin-top: 17%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 40px;
+	width: 80%;
+}
+
+div.button {
+	position: absolute;
+	display: inline;
+	margin-top: 150px;
+}
+
+div.button input {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+div#footer {
+	height: 38px;
+	width: 100%;
+	background-color: #EBEBEB;
+}
+
+div#footer ul {
+	list-style-type: none;
+	clear: both;
+	margin: 0;
+}
+
+div#footer ul div.left {
+	float: left;
+	margin-top: 10px;
+}
+
+div#footer ul div.right {
+	float: right;
+	margin-top: 10px;
+}
+
+div#footer ul li {
+	display: inline;
+}
+
+div#footer ul div.left li {
+	margin-left: 10px;
+}
+
+div#footer ul div.right li {
+	margin-right: 10px;
 }
