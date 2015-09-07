@@ -17,44 +17,53 @@ div#header ul li img {
 	width: 30px;
 }
 
-div#search {
+div#fill {
 	position: relative;
 	clear: both;
+	display: block;
+	text-align: center;
 	height: 565px;
 	width: 100%;
-	background-color: #99ff99;
 }
 
 div.icon {
+	top: 200px;
 	height: 92px;
 	width: 272px;
-	text-align: center; margin: 1em 0;
+	margin: 0 auto 32px auto;
+	padding-top: 140px;
 }
 div.icon img {
-	vertical-align: middle;
 	max-height: 92px;
 	max-width: 272px;
-	border: solid; border-color: #000;
 }
 
-div#search input {
-	position: absolute;
-	margin-top: 17%;
-	margin-left: 10%;
-	margin-right: 10%;
-	height: 40px;
-	width: 80%;
+div#search {
+	width: 400px;
+	height: 273px;
+	margin: 0 auto;
 }
 
-div.button {
-	position: absolute;
-	display: inline;
-	margin-top: 150px;
+div#search input.bar {
+	width: 582px;
+	height: 34px;
+	margin-left: -85px;
+	margin-bottom: 20px;
 }
 
-div.button input {
-	padding-right: 40px;
-	padding-left: 40px;
+div.gsb {
+	display: inline-block;
+}
+
+div.iflb {
+	display: inline-block;
+}
+
+div.iflb input, div.gsb input {
+	margin: 10px 2px;
+	padding: 10px 20px;
+	border-color: #fff;
+	background-color: #f2f2f2;
 }
 
 div#footer {
@@ -89,4 +98,11 @@ div#footer ul div.left li {
 
 div#footer ul div.right li {
 	margin-right: 10px;
+}
+
+div#content {
+	position: relative;
+	clear: both;
+	height: 565px;
+	width: 100%;
 }
