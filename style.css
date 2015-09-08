@@ -4,37 +4,65 @@ div#header {
 
 div#header ul {
 	list-style-type: none;
-	margin: 0 15px 0 0;
+	margin: 2px 6px 0 0;
 	padding: 0;
 	float: right;
-	text-align: center;
+}
+
+div#header div {
+	display: inline;
+	left: 5px;
+}
+
+div.hbtext {
+	height: 30px;
+	position: relative;
+	bottom: 5px;
+}
+
+div.hbtext span {
+	color: #a5a5a5;
+}
+
+div.hbtext a:link {
+	text-decoration: none;
+	color: #1b1b1b;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+div.hbtext a:visited {
+	text-decoration: none;
+	color: #363636;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+div.hbtext a:hover {
+	text-decoration: underline;
 }
 
 div#header ul li {
 	display: inline;
-	margin: 0 10px 0 0;
+	margin: 0 5px 0 0;
 	font-family: sans-serif;
 	font-size: 0.8em;
 	padding: 0 4px;
 }
 
-div#header ul li img {
-	height: 30px;
-	width: 30px;
+div.hbapp {
 	position: relative;
-}
-
-div#header ul li img:first-child {
-	height: 25px;
-	width: 25px;
-	margin-top: 5px;
-}
-
-div.hbtext {
-	height: 30px;
 	display: inline;
+}
+
+div.hbimg {
 	position: relative;
-	margin-bottom: 10px;
+	display: inline;
+	top: 5px;
+}
+
+div.hbimg img {
+	border-radius: 25px;
 }
 
 div#fill {
@@ -124,7 +152,7 @@ div#footer ul div.right li {
 
 div.left a:link, div.right a:link {
 	text-decoration: none;
-	color: #b7b7b7;
+	color: #6c6c6c;
 	font-family: sans-serif;
 	font-size: small;
 }
